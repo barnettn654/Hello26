@@ -5,7 +5,7 @@
 package Hello26;
 
 /**
- *something that will be changed
+ *something has changed on github side and not the local side
  * @author Ronak
  */
 public class Student {
