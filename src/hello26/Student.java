@@ -20,6 +20,7 @@ public class Student {
     public Student(String sID, String sName, sAddress) {
         this.sID = sID;
         this.sName = sName;
+        this.sAddress = sAddress;
     }
 
     public String getsID() {
