@@ -11,8 +11,12 @@ package Hello26;
 public class Student {
     private String sID;
     private String sName;
+    private String sAddress;
 
-    public Student(String sID, String sName) {
+   
+
+   
+    public Student(String sID, String sName, sAddress) {
         this.sID = sID;
         this.sName = sName;
     }
@@ -33,7 +37,12 @@ public class Student {
         this.sName = sName;
     }
     
+     public String getsAddress() {
+        return sAddress;
+    }
     
-    
+     public void setsAddress(String sAddress) {
+        this.sAddress = sAddress;
+    }
     
 }
